@@ -30,3 +30,8 @@ puts (capitals[4] == nil)
 puts capitals[-2]
 puts capitals.first
 puts capitals.include?("Moscow")
+
+# Can assigne list values outside of list length
+capitals[4] = "Istanbul"
+puts capitals[4] == nil
+puts capitals.length
