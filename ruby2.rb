@@ -28,3 +28,5 @@ puts (odd_or_even(2))
 capitals = ['ouagadoudou', 'Ljulijana', 'Villnus']
 puts (capitals[4] == nil)
 puts capitals[-2]
+puts capitals.first
+puts capitals.include?("Moscow")
