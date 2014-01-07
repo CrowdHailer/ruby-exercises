@@ -1,5 +1,5 @@
-def hello(name)
-	puts "Welcome to learning how to code #{name}"
+def hello (name, age)
+	puts "Welcome to learning how to code #{name}, who is #{age}"
 end
 
-hello("Peter")
+hello("Peter", 25)
