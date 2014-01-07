@@ -60,4 +60,24 @@ if :Wassup # non existant Symbol still treated as false
 	puts "-aaaazzzzzzuuuppppp"
 end
 
+if {pi: 3.14}
+	puts "hashes yes also"
+end
+
+if ""
+	puts "empty string is a yes"
+end
+
+if 0
+	puts "Zero i dont think so"
+end
+
+if !false
+	puts "NOT function"
+end
+
+if !0
+	puts "Reverses everything else too"
+end
+
 puts "REMEMBER ELSIF"
