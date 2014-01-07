@@ -35,3 +35,11 @@ puts capitals.include?("Moscow")
 capitals[4] = "Istanbul"
 puts capitals[4] == nil
 puts capitals.length
+
+# Hashes are much like dictionaries
+# symbols
+capitals = {"slovenia" => "Ljulijana", Indonesia: "Jakarta"}
+puts capitals["Indonesia"] # is empty
+puts capitals[:Indonesia]
+
+puts "NOTE differnce key value separator when using symbol keys"
