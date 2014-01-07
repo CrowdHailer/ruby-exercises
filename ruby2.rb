@@ -5,8 +5,21 @@ end
 hello("Peter", 25)
 
 # Setting arguments as optional
-def buy(product, number)
+def buy(product, number=2)
 	puts "#{product} " * number
 end
 
-buy('toblerone', 8)
+buy('toblerone')
+
+# return values
+def odd_or_even(number)
+	if number.odd?
+		return "odd"
+	elsif number.even?
+		return "even"
+	else
+		return "not an integer"
+	end
+end
+
+puts (odd_or_even(2))
