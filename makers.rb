@@ -13,3 +13,6 @@ puts "2^3 = #{2**3}"
 hour = 10
 puts hour.class
 puts "The time is #{hour}"
+
+#Interpolation only works in double quotes
+puts 'The time is #{hour}'
