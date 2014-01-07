@@ -27,3 +27,4 @@ puts (odd_or_even(2))
 # Arrays
 capitals = ['ouagadoudou', 'Ljulijana', 'Villnus']
 puts (capitals[4] == nil)
+puts capitals[-2]
