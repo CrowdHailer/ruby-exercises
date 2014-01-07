@@ -43,3 +43,21 @@ puts capitals["Indonesia"] # is empty
 puts capitals[:Indonesia]
 
 puts "NOTE differnce key value separator when using symbol keys"
+
+#Control flow
+hungry = 'yes'
+
+if hungry
+	puts "nom "*3
+end
+number = -1
+
+if number
+	puts "maths time"
+end
+
+if :Wassup # non existant Symbol still treated as false
+	puts "-aaaazzzzzzuuuppppp"
+end
+
+puts "REMEMBER ELSIF"
